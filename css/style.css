@@ -1,0 +1,220 @@
+body{
+    font-family: "Montserrat";
+    
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.7rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+@media (max-width:575px){
+    h1{
+        font-size: 3.3rem;
+    }
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: white;
+    padding: 5% 0;
+}
+
+/* SECTION 1 */ /* SECTION 1 */ /* SECTION 1 */ 
+
+
+
+.navbar-brand{                              /* navbar */
+    font-family: "Ubuntu" !important;
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+    
+}
+.navbar{
+    
+    padding: 0 0 2.5rem !important;
+}
+.nav-item{
+    font-weight: 700 !important;
+    padding:0 1.5rem !important;
+}
+.nav-link:hover{
+    color: rgb(251,34,98) !important;
+}                                             /*    */   
+
+
+div.container-fluid{
+    padding:3% 10% 0%;
+}
+img.img-fluid{
+    -webkit-filter: drop-shadow(-15px 5px 1px #928275);
+    filter: drop-shadow(-17px -3px 1px #a89585);
+    transition: 1s;
+}
+img.img-fluid:hover{
+    -webkit-filter: drop-shadow(-15px 10px 1px #928275);
+    filter: drop-shadow(-17px -13px 1px #a89585);
+    transition: 1s;
+}
+
+.db{
+    margin: 10% 4% 4% 0; 
+}
+.Oldies{
+    color: rgb(251,34,98);
+}
+.sec1{
+    background: #f5dcc7;
+    height: 100%;
+}
+
+
+#title{
+    color: rgb(251,34,98);
+}
+
+
+
+
+
+/* SECTION 2 */ /* SECTION 2 */ /* SECTION 2 */
+
+.sec2-icons{
+    color:#ef8172;
+    font-size: 700%;
+    margin-top: 25%;
+    transition: .5s;
+
+}
+.sec2-icons:hover{
+    color:#ff4c68;
+    font-size: 750%;
+    margin-top: 25%;
+    transition: .5s;
+
+}
+
+.sec2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding:0 10% 0;
+    text-align: center;
+}
+
+.sec2-icon-title{
+    font-family: "Montserrat";
+    font-weight: 700 !important;
+    font-size: 1.5rem;
+}
+.sec2-icon-subtitle{
+    margin: auto;
+    color: #8f8f8f !important;
+    font-weight: 400 !important;
+    width: 80%;
+}
+
+
+/* SECTION 3 *//* SECTION 3 *//* SECTION 3 */
+em{
+    margin-top: 10%;
+    font-weight: 600;
+    color: white;
+}
+
+.carousel-item{
+    padding: 3% 10%;
+}
+.carousel-img{
+    margin-right: 2%;
+    border-radius: 100%;
+    width: 20%;
+}
+
+.img1{
+    width:100%;
+}
+.img2{
+    width:100%;
+}
+.img3{
+    width:100%;
+}
+.sec3{
+
+    
+    background-color: #ef8172;
+    text-align: center;
+
+    align-items: center;
+
+}
+.sponsor{
+    padding: 3% 10%;
+}
+@media (max-width:777px){
+    .isize{
+        width: 50%;
+    }
+}
+
+/* SECTION 4 *//* SECTION 4 *//* SECTION 4 */
+.card{
+    display: block !important;
+    text-align: center;
+    width: 90%;
+    
+}
+.pricing{
+    font-size: 3rem;
+    color:black;
+}
+
+.signup-btn{
+    width: 100%;
+}
+@media (min-width:777px)and (max-width:990px){
+    .card{
+        padding-top: 2%;
+    
+    }
+    .col-md-12{
+        margin-left: 2%;
+    }
+}
+@media (max-width:765px){
+    .card{
+        margin-left: 6%;
+    }
+}
+
+/* SECTION 5 *//* SECTION 5 *//* SECTION 5 */
+.sec5b{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 2rem;
+}
+#sec5{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+    background: #ff4c68;
+}
+#sec5-h1{
+    margin-bottom: 5%;
+    display: block;
+    color: #fff;
+}
+
+/* SECTION 6 *//* SECTION 6 *//* SECTION 6 */
+#sec6{
+    text-align: center;
+    padding: 10%;
+}
+.fi{                            /*font icon*/
+    padding-left:1% ;
+    padding-right:1% ;
+    font-size: 2rem;
+}
+
+
